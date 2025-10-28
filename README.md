@@ -32,20 +32,14 @@ Example endpoint:
 
 https://api.open-meteo.com/v1/forecast?latitude=17.3850&longitude=78.4867&current_weather=true
 
-🏗️ Project Structure
-weather-now/
-│
-├── src/
-│   ├── App.jsx
-│   ├── index.css
-│   ├── main.jsx
-│   ├── components/
-│   │   └── WeatherCard.jsx
-│
-├── package.json
-├── README.md
-└── vite.config.js
 
+🏗️ Project Structure
+- `App.jsx` → Fetches data from Open-Meteo APIs and manages state  
+- `WeatherDisplay.jsx` → Displays city name, temperature, weather description, etc.  
+- `index.css` → Contains responsive design and input/output styles  
+- `main.jsx` → Bootstraps React app into the DOM  
+- `vite.config.js` → Vite setup for fast build and dev server  
+- `README.md` → Explains project, setup, and deployment 
 ⚙️ How to Run Locally
 
 Install dependencies
