@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "chmod +x ./node_modules/.bin/vite && vite build",
+    "build": "npx vite build",
     "preview": "vite preview",
-    "vercel-build": "chmod +x ./node_modules/.bin/vite && vite build"
+    "vercel-build": "npx vite build"
   },
   "dependencies": {
     "react": "^18.0.0",
@@ -18,3 +18,4 @@
     "vite": "^5.0.0"
   }
 }
+
