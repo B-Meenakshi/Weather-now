@@ -21,24 +21,19 @@ Tailwind CSS for styling
 
 Open-Meteo API for live weather data
 
-Deployed on  Vercel
+Deployed on Stackblitz
 
 🔗 API Used
 
 Open-Meteo API:
 https://open-meteo.com/
 
-Example endpoint:
-
-https://api.open-meteo.com/v1/forecast?latitude=17.3850&longitude=78.4867&current_weather=true
-
 
 🏗️ Project Structure
 - `App.jsx` → Fetches data from Open-Meteo APIs and manages state  
 - `WeatherDisplay.jsx` → Displays city name, temperature, weather description, etc.  
 - `styles.css` → Contains responsive design and input/output styles  
-- `main.jsx` → Bootstraps React app into the DOM  
-- `vite.config.js` → Vite setup for fast build and dev server  
+- `main.jsx` → Bootstraps React app into the DOM   
 - `README.md` → Explains project, setup, and deployment 
 ⚙️ How to Run Locally
 
@@ -46,21 +41,17 @@ Install dependencies
 
 npm install
 
-Run the app
-
-npm run dev
+Run the app -> npm run dev
 
 Open the app in your browser → http://localhost:5173
 
 Clone this repository
 
-git clone https://github.com/yourusername/weather-now.git
-cd weather-now
-
+git clone https://github.com/B-Meenakshi/Weather-now.git
 
 🌐 Deployment
 
-Vercel: https://vercel.com/
+Stackblitz->https://stackblitz.com/edit/vitejs-vite-chhvbfuy?embed=1&file=src%2FApp.jsx
 
 🧠 Key Learnings
 
@@ -70,4 +61,4 @@ Using React hooks (useState, useEffect) for API integration.
 
 Applying Tailwind CSS for clean, responsive UI.
 
-Deploying modern web apps on Vercel 
+Deploying modern web apps on Stackblitz
